@@ -33,7 +33,7 @@ function App() {
     <Navbar />
      <Newnav />
      <Routes>
-        <Route path="/" element={<Maincomp />} />
+        
         <Route path="/login" element={<SignIn />} />
         <Route path="/register" element={<SignUp />} />
         <Route path="/getproductsone/:id" element={<Cart />} />
